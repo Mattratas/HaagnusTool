@@ -1,0 +1,135 @@
+body {
+	background: #ccc;
+	clear: both;
+}
+
+span {
+	float: right;
+	font-weight: bold;
+	font-size: 2em;
+	padding: 13px;
+}
+
+table {
+	background: #ededed;
+	width: 1180px;
+	margin: 5px auto 5px auto;
+}
+
+
+#picker {
+	margin:0;
+	padding:0;
+	border:0;
+	width:70px;
+	height:20px;
+	border-right:20px solid green;
+	line-height:20px;
+}
+
+a:link img, a:visited img {
+	padding: 2px;
+	margin: 2px;
+}
+
+a:hover img {
+	background: #ccc;
+	padding: 2px;
+	margin: 2px;
+}
+
+.color-box {
+	float: left;
+	width: 30px;
+	height: 30px;
+	margin: 5px;
+	border: 1px solid white;
+}
+
+.items {
+	padding: 5px;
+	margin: 5px;
+}
+
+.container{
+	width: 1180px;
+	margin: 10px auto;
+	}
+
+ul.tabs{
+	margin: 0px;
+	padding: 0px;
+	list-style: none;
+}
+
+ul.tabs li{
+	background: none;
+	color: #222;
+	display: inline-block;
+	padding: 10px 15px;
+	cursor: pointer;
+}
+
+ul.tabs li.current{
+	background: #ededed;
+	color: #222;
+}
+
+.tab-content{
+	display: none;
+	background: #ededed;
+	padding: 5px;
+}
+
+.tab-content.current{
+	display: inherit;
+}
+
+
+
+
+
+
+
+
+
+
+
+#left {
+	background: #fff;
+	float :left;
+	border: 1px solid #999;
+	padding: 10px;
+	margin: 10px auto 100px 25%;
+}
+
+#right {
+	background: #fff;
+	float: right;
+	border: 1px solid #999;
+	padding: 10px;
+	margin: 10px 25% 100px auto;
+}
+
+#show-enemies {
+	text-align: center;
+}
+
+#show-splash {
+	text-align: center;
+}
+
+#container {
+	background: #555;
+	width: 100%;
+}
+
+.hidden {
+	display: none;
+	visibility : hidden;
+}
+
+.colour {
+	text-align: center;
+	font-weight: bold;
+}
